@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="import" href="import.html" >
+<title>FPBJPC House Music</title>
+<link rel="stylesheet" href="fpbjpc.css" >
+</head>
+
+<body>
+<div id="header-insert"></div>
+<div>
+  <p>
+     <img src="housemusic/housemusic.png" style="width: 80%;"/>
+     <img src="housemusic/housemusic-swill.png" style="width: 50%;"/>
+  </p>
+  <p>
+    <iframe width="50%" height="500" src="https://www.youtube.com/embed/Lop2ifZoHzU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </p>
+<p>&nbsp;</p>
+</div>
+<div id="footer-insert"></div>
+</body>
+<script >
+  $('#header-insert').load('./import.html #header-template > *');
+  $('#footer-insert').load('./import.html #header-template > *');
+</script>
+</html>

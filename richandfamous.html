@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="import" href="import.html" >
+<link rel="stylesheet" href="fpbjpc.css" >
+<title>FPBJPC Rich and Famous Magazine</title>
+</head>
+
+<body>
+<div id="header-insert"></div>
+<div>
+  <a href="richandfamous/Rich%20N%20Famous%20Mag%20Issue%201%202017.pdf">
+    <img src="richandfamous/rnf1.png" style="width: 50%;"/>
+    <p>Rich and Famous #1, 2017</p>
+  </a>
+  <a href="richandfamous/Rich%20N%20Famous%20Mag%20Issue%202%202017.pdf">
+    <img src="richandfamous/rnf2.png" style="width: 50%;"/>
+    <p>Rich and Famous #2, 2017</p>
+  </a>
+  <a href="richandfamous/Rich_and_Famous_March_2018.pdf">
+      <img src="richandfamous/rnf3.png" style="width: 50%;"/>
+      <p>Rich and Famous #3, March 2018</p>
+  </a>
+    <a href="http://richandfamous.life">
+      <img src="richandfamous/rnf4.png" style="width: 50%;"/>
+      <p>Rich and Famous #4, April 2018</p>
+  </a>
+</div>
+<div id="footer-insert"></div>
+</body>
+<script >
+  $('#header-insert').load('./import.html #header-template > *');
+  $('#footer-insert').load('./import.html #header-template > *');
+</script>
+</html>

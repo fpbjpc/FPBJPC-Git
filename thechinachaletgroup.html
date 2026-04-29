@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="import" href="import.html" >
+<link rel="stylesheet" href="fpbjpc.css" >
+<title>FPBJPC The China Chalet Group</title>
+</head>
+
+<body>
+<div id="header-insert"></div>
+<div>
+  <img src="thechinachaletgroup/tccg-poster.jpg" style="width: 40%;"/>
+  <img src="thechinachaletgroup/tccg-mallorca.jpg" style="width: 40%;"/>
+</div>
+<div id="footer-insert"></div>
+</body>
+<script >
+  $('#header-insert').load('./import.html #header-template > *');
+  $('#footer-insert').load('./import.html #header-template > *');
+</script>
+</html>

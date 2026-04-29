@@ -1,0 +1,25 @@
+@charset "UTF-8"; /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+
+.tab {
+  margin-left: .5cm;
+}
+
+#header-insert a, #footer-insert a, .link {
+  text-decoration: none;
+	color: black;
+}
+
+#header-insert a:visited, #footer-insert a:visited, .link {
+	color: black;
+}
+#header-insert a:hover, #footer-insert a:hover, .link {
+  text-decoration: underline;
+}
+
+#header-insert, #footer-insert {
+	background-color: #FFF;
+}
+
+span {
+	color: #000;
+}
